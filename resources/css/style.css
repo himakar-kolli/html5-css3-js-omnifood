@@ -100,6 +100,22 @@ h2:after {
   line-height: 145%;
 }
 
+/* ----- LINKS ----- */
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
 /* ----- BUTTONS ----- */
 .btn:link,
 .btn:visited {
@@ -292,5 +308,23 @@ header {
 .btn-app img {
   height: 50px;
   width: auto;
+  margin-right: 10px;
+}
+
+/*------------------------------------------------
+  HOW IT WORKS
+------------------------------------------------*/
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+.city-feature ion-icon {
   margin-right: 10px;
 }
