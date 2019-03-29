@@ -543,6 +543,11 @@ ion-icon[name="logo-instagram"]:hover {
   color: #517fa4;
 }
 
+ion-icon[name="heart"] {
+  color: #ea0000;
+  padding: 0 3px;
+}
+
 footer p {
   color: #888;
   text-align: center;
